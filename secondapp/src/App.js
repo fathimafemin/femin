@@ -8,6 +8,15 @@ import Internal from './component/Internal';
 import External from './component/External';
 import Buttons from './component/Buttons';
 import 'bootstrap/dist/css/bootstrap.min.css';//to import the boostap function here
+import BasicExample from './component/BasicExample';
+import Productlist1 from './component/Productlist1';
+import Eventhandle from './component/Eventhandle';
+import Mycount from './component/Mycount';
+import Useeffect from './component/Useeffect';
+import Clockhold from './component/Clockhold';
+import Todo from './component/Todo';
+
+
 
 function App() {
   return (
@@ -20,7 +29,14 @@ function App() {
       <Internal/>
       <External/>
       <Buttons/>
-      
+      <BasicExample/>
+      <Productlist1/>
+      <Eventhandle/>
+      <Mycount/>
+      <Useeffect/>
+     <Clockhold/>
+     <Todo/>
+    
       </header>
     </div>
    
